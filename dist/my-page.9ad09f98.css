@@ -1,7 +1,6 @@
 .jumbotron-extend{
-    position: relative;
     height: 80vh;
-    background: url(/main-min.ef9c1d86.jpg) no-repeat center center;
+    background: url(/main-min.ef9c1d86.jpg) center;
     background-size: cover;
 }
 
