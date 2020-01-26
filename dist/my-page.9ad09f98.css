@@ -1,14 +1,10 @@
 .jumbotron-extend{
-    height: 80vh;
+    height: 100%;
     background: url(/main-min.ef9c1d86.jpg) center;
     background-size: cover;
 }
 
-.jumbotron-container {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
+
 
 .site-name {
     font-family: 'Playfair Display', serif;
