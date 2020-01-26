@@ -1,7 +1,6 @@
 .jumbotron-extend{
     position: relative;
     height: 100vh;
-    min-height: 300px;
     background: url(/main-min.ef9c1d86.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -50,7 +49,6 @@
 h3 {
     text-align: center;
     margin-top: 50px;
-    color: red;
 }
 
 h6 {
