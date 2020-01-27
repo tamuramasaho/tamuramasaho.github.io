@@ -1,13 +1,8 @@
 .jumbotron {
     position: relative;
+    height: 100vh;
     background: url(/main-min.ef9c1d86.jpg) center;
     background-size: cover;
-}
-
-.jumbotron::before {
-    content:"";
-    display: block;
-    padding-top: 75%; /*.jumbotronのwidthに対して高さ75%に保つ*/
 }
 
 
