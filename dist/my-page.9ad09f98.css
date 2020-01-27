@@ -1,6 +1,7 @@
-.jumbotron-extend{
+.junbotron{
     height: 100%;
     background: url(/main-min.ef9c1d86.jpg) center;
+    background-size: cover;
 }
 
 
