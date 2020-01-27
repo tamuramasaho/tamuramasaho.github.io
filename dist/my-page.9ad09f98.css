@@ -27,7 +27,7 @@
 }
 
 
-#about, #portfolio, #contact {
+#about, #portfolio, #contact, #skill {
     padding: 100px 0 0 0;
 }
 
@@ -54,11 +54,9 @@ h6 {
 
 ul {
     list-style: none;
-    text-align: center;
 }
 
 ul li {
-    padding: 20px;
 }
 
 .i-color, a {
@@ -74,14 +72,24 @@ ul li {
     font-size: 12px;
 }
 
-.my-page p {
+.description {
     border-top: solid 1px #dcdcdc;
     margin-top: 10px;
 }
 
-.voc-app p {
-    border-top: solid 1px #dcdcdc;
-    margin-top: 10px;
+a {
+    color: black;
 }
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    text-align: center;
+}
+
+
+
 
 /*# sourceMappingURL=/my-page.9ad09f98.css.map */
