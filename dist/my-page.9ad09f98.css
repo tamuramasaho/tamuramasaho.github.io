@@ -1,4 +1,9 @@
-.test {
+body{ 
+    padding-top: 60px; 
+}
+
+
+.top-image {
     height: 100vh;
     background: url(/main-min.ef9c1d86.jpg) center;
     background-size: cover;
@@ -10,30 +15,10 @@
     font-family: 'Playfair Display', serif;
 }
 
-.btn-black {
-    border-radius: 0;
-    background-color: #000;
-    color: #fff;
-    font-family: 'Avenir', serif;
-}
 
-.btn-black:hover {
-     background-color: #fff;
-     color: #000;
-}
 
 .navbar-light .navbar-toggler {
     border-color: rgba(0,0,0,0);
-}
-
-
-#about, #portfolio, #contact, #skill {
-    padding: 100px 0 0 0;
-}
-
-
-.profile {
-    padding: 10px;
 }
 
 .box {
@@ -41,14 +26,19 @@
     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
-h3 {
-    text-align: center;
-    margin-top: 50px;
+.title {
+    padding-top: 50px;
 }
 
-h6 {
+h3 {
+    text-align: center;
+}
+
+
+h4 {
     font-weight: bold;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 
@@ -82,11 +72,26 @@ a:hover {
     color: black;
 }
 
+.col-md-12 li {
+    padding: 10px;
+}
+
+.col-md-6 {
+    padding: 50px 30px;
+}
+
 .contact {
     text-align: center;
 }
 
+hr {
+    background-color: black;
+    height: 3px;
+    width: 54px;
+}
 
-
+.link {
+    font-size: 0.6em
+}
 
 /*# sourceMappingURL=/my-page.9ad09f98.css.map */
