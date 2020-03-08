@@ -120,10 +120,11 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 })({"index.js":[function(require,module,exports) {
 $(function () {
   $('a[href^="#"]').click(function () {
+    var headerHight = 100;
     var speed = 500;
     var href = $(this).attr("href");
     var target = $(href == "#" || href == "" ? 'html' : href);
-    var position = target.offset().top;
+    var position = target.offset().top - headerHight;
     $("html, body").animate({
       scrollTop: position
     }, speed, "swing");
@@ -158,7 +159,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64967" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49782" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
